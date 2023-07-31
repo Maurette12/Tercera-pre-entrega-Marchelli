@@ -4,7 +4,7 @@ class Futbolista(models.Model):
     nombre = models.CharField(max_length=256)
     apellido = models.CharField(max_length=256)
     posicion = models.CharField(max_length=256)
-    altura = models.IntegerField(null=True)
+    
 
 
 class Socio(models.Model):
